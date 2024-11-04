@@ -1,0 +1,18 @@
+# This file may be used to create an environment using:
+# conda create --name <env> --file <this file>
+name: cs587
+channels:
+  - pytorch
+dependencies:
+  - python=3.10
+  - jupyter
+  - numpy
+  - matplotlib
+  - pandas
+  - scikit-learn
+  - scikit-image
+  - tqdm
+  - pytorch
+  - torchvision
+  - torchaudio
+  - cpuonly
